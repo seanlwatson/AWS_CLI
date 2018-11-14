@@ -12,7 +12,7 @@ Install the AWS CLI, see [AWS CLI](https://aws.amazon.com/cli/) and [Installing 
 aws-cli/1.14.44 Python/3.6.6 Linux/4.15.0-36-generic botocore/1.8.48
 </pre>
 
-Access keys consist of an access key ID and secret access key, which are used to sign programmatic requests that you make to AWS. The `aws configure` command will prompt you for four pieces of information. AWS Access Key ID and AWS Secret Access Key are your programatic account credentials. Specify an AWS region and are the same names you see in the mgt. console. The default output can be either _json, text, or table_, where the default format is _json_.
+[Access keys](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey) consist of an access key ID and secret access key, which are used to sign programmatic requests that you make to AWS. The `aws configure` command will prompt you for four pieces of information. AWS Access Key ID and AWS Secret Access Key are your programatic account credentials. Specify an AWS region and are the same names you see in the mgt. console. The default output can be either _json, text, or table_, where the default format is _json_.
 
 <pre><font color="#8AE234"><b>sean@vubuntu</b></font>:<font color="#729FCF"><b>~</b></font>$ aws configure
 AWS Access Key ID [None]: 
